@@ -1,0 +1,129 @@
+header {
+  background-color: #000000;
+  color: antiquewhite;
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+ol {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+/* .header ol li {
+  height: inherit;
+} */
+
+.header a {
+  color: antiquewhite;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+.intro {
+  height: 295px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  font-style: bold;
+}
+
+.presentation {
+  color: antiquewhite;
+  background-image: url(../images/gatito.jpg);
+  background-size: 1500px 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.horario {
+  height: 740px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 80px 60px 80px;
+}
+.text {
+  background-color: #f4a57d;
+  color: white;
+  line-height: 1.5em;
+  letter-spacing: -0.2px;
+  height: 526px;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.text h3 {
+  font-size: 20px;
+}
+
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service {
+  width: 600;
+  height: 560;
+  margin-right: 50px;
+}
+
+.service_text1 {
+  margin-top: 0;
+  background-color: #000000;
+  color: white;
+}
+
+.service_text2 {
+  background-color: #3a6bbc;
+  color: white;
+}
+
+.service_text3 {
+  background-color: #f4a57d;
+  color: white;
+}
